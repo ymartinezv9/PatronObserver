@@ -120,7 +120,7 @@ Departamento de Notificaciones: Nueva fecha para el examen final.
 Ana ha recibido una notificación: Nueva fecha para el examen final.
 ```
 
-### Explicación:
+### 4. Explicación:
 
 - **Observer**: Es la interfaz que define el método `update()` que los observadores implementarán para recibir notificaciones.
 - **Subject**: Es la interfaz del sujeto que permite a los observadores suscribirse, desuscribirse y recibir notificaciones.
@@ -131,6 +131,6 @@ En este ejemplo, los estudiantes se suscriben a las notificaciones del departame
 
 ---
 
-### Conclusión
+### 5. Conclusión
 
 El patrón **Observer** permite gestionar fácilmente la dependencia entre un sujeto y varios observadores. Es ideal para implementar sistemas de notificación o eventos, donde un cambio en el sujeto debe ser comunicado a varios observadores. En este ejemplo, los estudiantes de la **UMG** reciben avisos importantes del **Departamento de Notificaciones** de manera automática, dependiendo de si están suscritos o no.
